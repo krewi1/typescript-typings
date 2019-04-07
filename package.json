@@ -1,0 +1,24 @@
+{
+  "name": "type-sandbox",
+  "version": "0.0.1",
+  "description": "awesome typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "dtslint spec"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "strict-typing"
+  ],
+  "author": "p.kratochvil",
+  "license": "ISC",
+  "dependencies": {
+    "definitelytyped-header-parser": "1.0.1",
+    "prettier": "^1.16.4",
+    "typescript": "^3.4.2"
+  },
+  "devDependencies": {
+    "dtslint": "^0.6.0"
+  }
+}
