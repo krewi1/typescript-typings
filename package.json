@@ -1,8 +1,7 @@
 {
   "name": "type-sandbox",
   "version": "0.0.1",
-  "description": "awesome typescript",
-  "main": "index.ts",
+  "description": "Typescript typings",
   "scripts": {
     "test": "dtslint spec"
   },
@@ -12,13 +11,13 @@
     "strict-typing"
   ],
   "author": "p.kratochvil",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "definitelytyped-header-parser": "1.0.1",
-    "prettier": "^1.16.4",
     "typescript": "^3.4.2"
   },
   "devDependencies": {
+    "definitelytyped-header-parser": "1.0.1",
+    "prettier": "^1.16.4",
     "dtslint": "^0.6.0"
   }
 }

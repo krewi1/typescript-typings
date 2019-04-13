@@ -2,16 +2,16 @@ import { AreSame } from "../../types/object/same";
 import { ClassAttributeNames, ClassAttributes } from "../../types/class/onlyAttributes";
 
 class TestClass {
-    propA: string;
-    propB: string;
-    private readonly propC: string;
-    test1: () => void;
-    test2: () => boolean;
+  propA: string;
+  propB: string;
+  private readonly propC: string;
+  test1: () => void;
+  test2: () => boolean;
 }
 
 interface ExpectedType {
-    propA: string;
-    propB: string;
+  propA: string;
+  propB: string;
 }
 
 // $ExpectType "propA" | "propB"
