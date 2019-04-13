@@ -1,0 +1,11 @@
+language: nodejs
+before_script:
+  - npm install
+script:
+  - npm test
+deploy:
+  provider: npm
+  api_key: $NPM_TOKEN
+  email: kratochvilp@post.cz
+  on:
+    branch: master
