@@ -1,6 +1,6 @@
 {
-  "name": "type-sandbox",
-  "version": "0.0.1",
+  "name": "typescript-types",
+  "version": "1.0.0",
   "description": "Typescript typings",
   "scripts": {
     "test": "dtslint spec"
